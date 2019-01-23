@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme2"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Login_Animation_Ex"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +22,7 @@
         <activity android:name=".Chips_Example" />
         <activity android:name=".Material_Button_Example" />
         <activity android:name=".Material_Card_Example" />
-        <activity android:name=".Text_Fields_Example"></activity>
+        <activity android:name=".Text_Fields_Example" />
     </application>
 
 </manifest>
